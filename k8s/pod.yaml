@@ -1,0 +1,10 @@
+apiversion: v1
+kind: Pod
+metadata:
+  name: nginxp
+spec:
+  containers:
+  - name: c1
+    image: nginx
+    port:
+    - containerPort: 80
