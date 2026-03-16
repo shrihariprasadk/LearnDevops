@@ -1,0 +1,27 @@
+# - comment
+# - we can use .yaml or .yml extension for k8s manifest files
+
+# - simpl key value pairs
+name: Shri
+city: Hyderabad
+
+#- complex repesentation to use dictionary or map to store multiple key value pairs
+
+person:
+  Name: Hari
+  City: Hyderabad
+  Zip: 502032
+
+# - Arrays/Lists for multiple items
+
+courses:
+- Azure
+- Python
+
+#- we have four top level items/fields in k8s yaml file (objects like pods, deployment, service)
+apiversion:
+kind:
+metadata:
+spec:
+
+
