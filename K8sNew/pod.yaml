@@ -1,5 +1,5 @@
-apiversion: v1
-kind: pod
+apiVersion: v1
+kind: Pod
 metadata:
   name: nginx-pod
 spec:
@@ -7,4 +7,4 @@ spec:
   - name: c1
     image: nginx
     ports:
-    - containerport: 80
+    - containerPort: 80
