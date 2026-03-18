@@ -7,7 +7,7 @@ spec:
     # Accept traffic sent to port 80
     - name: http
       port: 80
-      nodeport: 30007
+      nodePort: 30007
   selector:
     # Loadbalance traffic across Pods matching
     # this label selector
