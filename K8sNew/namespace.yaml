@@ -8,4 +8,6 @@ metadata:
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: QA
+  name: qa
+
+---
